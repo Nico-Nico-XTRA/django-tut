@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 <head>
-	<title></title>
+	<title>Polls, people!</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}" />
 </head>
+
 <body>
 	<h1>Polls</h1>
 {% if latest_question_list %}

@@ -1,0 +1,12 @@
+body {
+	background-color: red;
+}
+
+h1 {
+	background-color: blue;
+}
+
+li a {
+	font-style: bold;
+	color: green;
+}
